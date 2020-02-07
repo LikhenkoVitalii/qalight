@@ -4,11 +4,9 @@ print("Введите количество элементов первого с�
 a = int(input())
 print("Введите количество элементов второго списка:")
 c = int(input())
-b = int
-d = int
 
 
-def gettext(a, b, c, d):
+def gettext(a, c):
 
     if a <= 0:
         print("Неверное значение")
@@ -37,4 +35,4 @@ def gettext(a, b, c, d):
     print(list2)
     list3 = list(set(list1) & set(list2))
     return print(list3)
-print (gettext(a, b, c, d))
+print (gettext(a, c))
