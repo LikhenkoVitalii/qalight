@@ -26,12 +26,12 @@ def gettext(a, c):
     list1 = []
     for l in range(a):
         l = int(random.randint(0, b))
-        list.append(l)
+        list1.append(l)
     print(list1)
     list2 = []
     for f in range(c):
         f = int(random.randint(0, d))
-        list.append(f)
+        list2.append(f)
     print(list2)
     list3 = list(set(list1) & set(list2))
     return print(list3)
