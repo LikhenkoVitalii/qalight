@@ -14,4 +14,4 @@ def listfunction(a, b):
     return list1
 
 
-print(listfunction)
+print(listfunction(a,b))
