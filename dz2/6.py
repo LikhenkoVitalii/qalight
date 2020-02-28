@@ -25,9 +25,9 @@ curs.execute("""CREATE TABLE adress
                   home INTEGER)
                   """)
 
-curs.execute('INSERT INTO cliets (company, country) VALUES ("McDonals", "Germany")')
-curs.execute('INSERT INTO cliets (company, country) VALUES ("McDonals", "USA")')
-curs.execute('INSERT INTO cliets (company, country) VALUES ("McDonals", "France")')
+curs.execute('INSERT INTO clients (company, country) VALUES ("McDonals", "Germany")')
+curs.execute('INSERT INTO clients (company, country) VALUES ("McDonals", "USA")')
+curs.execute('INSERT INTO clients (company, country) VALUES ("McDonals", "France")')
 curs.execute('INSERT INTO product (name, country, amount, type) VALUES ("Meat", "Germany", 400, 2)')
 curs.execute('INSERT INTO product (name, country, amount, type) VALUES ("Meat", "Germany", 200, 1)')
 curs.execute('INSERT INTO product (name, country, amount, type) VALUES ("Meat", "France", 500, 2)')
